@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/rpgStyle.css" >
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>
+        StarWarsRPG
+    </title>
+</head>
+
+<body background="assets/images/star.jpg" style="max-width:100%;height:auto;" >
+
+    <div class="container" id = "divCopy">
+        <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5">
+                <h1>Star Wars RPG</h1>
+            </div>
+        </div>
+
+        <div id="yourCharacter2">
+
+        </div>
+        <!-- selected player holder -->
+        <!-- <div class="row">
+            <div class="col-lg-0" style="text-align:center">
+                <span id="player" class="pic"></span>
+
+            </div>
+            <div class="col-lg-8"></div>
+        </div> -->
+        <div class="row">
+            <div class="col-lg-0">
+                <span id="player" class="pic"></span>
+            </div>
+            <div class="col-lg-8"></div>
+        </div>
+
+
+        <!-- Enemies TEXT -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 id="enemiesText"></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="selector">
+                <div class="col-lg-2" value="luke">
+                    <button class="btn normal-button option" value="luke" id="lukePic">
+                        <div id="lukeNameText"></div>
+                        <img src="assets/images/luke.jpg" value="luke" alt="Luke" class="pic">
+                        <div id="lukeHealthText"></div>
+                    </button>
+                </div>
+                <div class="col-lg-2" value="darth">
+                    <button class="btn normal-button option">
+                        <div id="vaderNameText"></div>
+                        <img src="assets/images/vader.jpg" alt="Darth Vader" class="pic" id="vaderPic">
+                        <div id="vaderHealthText"></div>
+
+                    </button>
+                </div>
+                <div class="col-lg-2" value="starDestroyer">
+                    <button class="btn normal-button option">
+                        <div id="starDestroyerNameText"></div>
+                        <img src="assets/images/starDestroyer.jpg" alt="Star Destroyer" class="pic">
+                        <div id="starDestroyerHealthText"></div>
+
+                    </button>
+                </div>
+                <div class="col-lg-2" value="deathStar">
+                    <button class="btn normal-button option">
+                        <div id="deathStarNameText"></div>
+                        <img src="assets/images/deathStar.png" alt="Death Star" class="pic">
+                        <div id="deathStarHealthText"></div>
+
+                    </button>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+        <!-- YOUR CHARACTER HEADER -->
+        <div class="row" id="yourCharacter">
+            <div class="col-lg-12">
+                <h2>Your Character</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Fight Section</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <button id="attack" type="button">Attack</button>
+
+            </div>
+        </div>
+        <!-- DEFENDER HEADER -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Defender</h2>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-lg-0">
+                <span id="defender" class="pic"></span>
+            </div>
+            <div class="col-lg-8"></div>
+        </div>
+
+        <div class = "row">
+            <div class="col-lg-12">
+                <span id="attackText"></span>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-12">
+                        <button id="reset" type="button">reset</button>
+    
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+<footer>
+    <script src="assets/javascript/rpg.js"></script>
+</footer>
+
+</html>
